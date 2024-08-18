@@ -1,0 +1,57 @@
+.Intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: rgb(232, 245, 233); ;
+  }
+  
+  .Intro-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .Intro h1 {
+    font-size: 36px;
+    color: rgb(46, 125, 50);; 
+  }
+  
+  .Intro h2 {
+    font-size: 48px;
+    color: rgb(46, 125, 50);; 
+    margin: 20px 0;
+  }
+  
+  .Intro p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .Intro button {
+    background-color: rgb(0, 121, 107);
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Intro button:hover {
+    background-color: rgb(110, 221, 110);
+  }
+  
+  .Intro-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .Intro-image img {
+    width: 40%;
+    max-width: 400px;
+    border-radius: 50%; 
+    border: 10px solid rgb(102, 187, 106);
+  }
+  
